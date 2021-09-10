@@ -46,6 +46,10 @@
 			line-height: inherit
 		}
 
+		.menu_block.desktop_hide .menu-links span {
+			mso-hide: all;
+		}
+
 		@media (max-width:620px) {
 			.row-content {
 				width: 100% !important;
@@ -70,6 +74,12 @@
 				max-width: 0;
 				overflow: hidden;
 				font-size: 0;
+			}
+
+			.desktop_hide,
+			.desktop_hide table {
+				display: table !important;
+				max-height: none !important;
 			}
 		}
 	</style>
@@ -261,7 +271,7 @@
 															<td style="padding-bottom:25px;">
 																<div style="font-family: sans-serif">
 																	<div style="font-size: 12px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; color: #000000; line-height: 1.8;">
-																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 25.2px;"><span style="font-size:14px;">We’ve got less than a month until the Granville Home of Hope Grand Prize Drawing, and tickets are going fast!</span></p>
+																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 25.2px;"><span style="font-size:14px;">There's just one month left until the Granville Home of Hope Grand Prize Drawing, and tickets are going fast!</span></p>
 																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 21.6px;"><br></p>
 																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 25.2px;"><span style="font-size:14px;">Once again, we are offering a limited number of two-ticket bundles, which includes one free entry into a drawing to win a 2-year lease on a 2021 Lexus UX 200, generously donated by Fresno Lexus. There will only be 2,250 bundles available to purchase, and as of this week, there are fewer than 400 bundles remaining.</span></p>
 																		<p style="margin: 0; font-size: 14px; mso-line-height-alt: 21.6px;"><br></p>
@@ -291,7 +301,7 @@
 														<tr>
 															<td style="padding-bottom:25px;padding-top:20px;text-align:center;">
 																<div align="center">
-																	<!--[if mso]><a:roundrect xmlns:a="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://gvhomeofhope.com/" style="height:42px;width:169px;v-text-anchor:middle;" arcsize="48%" stroke="false" fillcolor="#65cce6"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#000000; font-family:Tahoma, sans-serif; font-size:14px"><![endif]--><a href="https://gvhomeofhope.com/" target="_blank" style="text-decoration:none;display:inline-block;color:#000000;background-color:#65cce6;border-radius:20px;width:auto;border-top:1px solid #65cce6;border-right:1px solid #65cce6;border-bottom:1px solid #65cce6;border-left:1px solid #65cce6;padding-top:5px;padding-bottom:5px;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;"><span style="padding-left:20px;padding-right:20px;font-size:14px;display:inline-block;letter-spacing:normal;"><span style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;"><strong><span style="font-size: 14px; line-height: 28px;" data-mce-style="font-size: 14px; line-height: 28px;">&nbsp; &nbsp; ✨ Learn More&nbsp; &nbsp;&nbsp;</span></strong></span></span></a>
+																	<!--[if mso]><a:roundrect xmlns:a="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://gvhomeofhope.com/" style="height:42px;width:167px;v-text-anchor:middle;" arcsize="48%" stroke="false" fillcolor="#65cce6"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#000000; font-family:Tahoma, sans-serif; font-size:14px"><![endif]--><a href="https://gvhomeofhope.com/" target="_blank" style="text-decoration:none;display:inline-block;color:#000000;background-color:#65cce6;border-radius:20px;width:auto;border-top:1px solid #65cce6;border-right:1px solid #65cce6;border-bottom:1px solid #65cce6;border-left:1px solid #65cce6;padding-top:5px;padding-bottom:5px;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;"><span style="padding-left:20px;padding-right:20px;font-size:14px;display:inline-block;letter-spacing:normal;"><span style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;"><strong><span style="font-size: 14px; line-height: 28px;" data-mce-style="font-size: 14px; line-height: 28px;">&nbsp; &nbsp; ✨ Learn More&nbsp; &nbsp;&nbsp;</span></strong></span></span></a>
 																	<!--[if mso]></center></v:textbox></a:roundrect><![endif]-->
 																</div>
 															</td>
@@ -408,7 +418,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-11" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
+					<table class="row row-11 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
 						<tbody>
 							<tr>
 								<td>
@@ -463,7 +473,60 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-12" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
+					<table class="row row-12 desktop_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+						<tbody>
+							<tr>
+								<td>
+									<table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden; background-color: #fff;" width="600">
+										<tbody>
+											<tr>
+												<th class="column" width="50%" style="mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; padding-left: 10px; padding-right: 10px;">
+													<table class="text_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td style="padding-left:5px;">
+																<div style="font-family: sans-serif">
+																	<div style="font-size: 14px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; color: #333333; line-height: 1.8;">
+																		<ul>
+																			<li><a href="https://gvhomeofhope.com/angels-of-grace/" target="_blank" style="text-decoration: underline; color: #084675;" rel="noopener">Angels of Grace</a></li>
+																			<li><a href="https://gvhomeofhope.com/art-of-life-cancer-foundation/" target="_blank" style="text-decoration: underline; color: #084675;" rel="noopener">Art of Life Cancer Foundation</a></li>
+																			<li><a href="https://gvhomeofhope.com/breaking-the-chains/" target="_blank" style="text-decoration: underline; color: #084675;" rel="noopener">Breaking the Chains</a></li>
+																			<li><a href="https://gvhomeofhope.com/casa-of-fresno-madera-counties/" target="_blank" style="text-decoration: underline; color: #084675;" rel="noopener">CASA of Fresno &amp; Madera Counties</a></li>
+																			<li><a href="https://gvhomeofhope.com/central-california-food-bank/" target="_blank" style="text-decoration: underline; color: #084675;" rel="noopener">Central California Food Bank</a></li>
+																			<li><u><a href="https://gvhomeofhope.com/foundation-for-central-schools/" target="_blank" rel="noopener" style="color: #084675;">Foundation for Central Schools</a></u></li>
+																			<li><u><a href="https://gvhomeofhope.com/foundation-for-clovis-schools/" target="_blank" rel="noopener" style="color: #084675;">Foundation for Clovis Schools</a></u></li>
+																			<li><u><a href="https://gvhomeofhope.com/foundation-for-sanger-schools/" target="_blank" rel="noopener" style="color: #084675;">Foundation for Sanger Schools</a></u></li>
+																			<li><u><a href="https://gvhomeofhope.com/fresno-police-chaplaincy/" target="_blank" rel="noopener" style="color: #084675;">Fresno Police Chaplaincy Program</a></u></li>
+																			<li><u><a href="https://gvhomeofhope.com/hinds-hospice/" target="_blank" rel="noopener" style="color: #084675;">Hinds Hospice</a></u></li>
+																			<li><u><a href="https://gvhomeofhope.com/parents-and-addicts-in-need/" target="_blank" rel="noopener" style="color: #084675;">Parents &amp; Addicts in Need (PAIN)</a></u></li>
+																		</ul>
+																		<p style="margin: 0; mso-line-height-alt: 25.2px;"><br></p>
+																	</div>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</th>
+												<th class="column" width="50%" style="mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; padding-left: 10px; padding-right: 10px;">
+													<table class="text_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+														<tr>
+															<td style="padding-bottom:10px;">
+																<div style="font-family: sans-serif">
+																	<div style="font-size: 12px; color: #333333; line-height: 1.8; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
+																		<p style="margin: 0; font-size: 12px; mso-line-height-alt: 21.6px;"><br></p>
+																	</div>
+																</div>
+															</td>
+														</tr>
+													</table>
+												</th>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="row row-13" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
 						<tbody>
 							<tr>
 								<td>
@@ -486,7 +549,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-13" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
+					<table class="row row-14" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
 						<tbody>
 							<tr>
 								<td>
@@ -516,7 +579,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-14" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
+					<table class="row row-15" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
 						<tbody>
 							<tr>
 								<td>
@@ -544,7 +607,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-15" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
+					<table class="row row-16" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
 						<tbody>
 							<tr>
 								<td>
@@ -573,7 +636,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-16" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
+					<table class="row row-17" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
 						<tbody>
 							<tr>
 								<td>
@@ -600,7 +663,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-17" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0; background-color: #c7c8ca;">
+					<table class="row row-18" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0; background-color: #c7c8ca;">
 						<tbody>
 							<tr>
 								<td>
@@ -626,7 +689,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-18" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
+					<table class="row row-19" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
 						<tbody>
 							<tr>
 								<td>
@@ -636,7 +699,7 @@
 												<th class="column" width="100%" style="mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top;">
 													<table class="image_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0;">
 														<tr>
-															<td style="width:100%;padding-right:0px;padding-left:0px;padding-top:5px;padding-bottom:5px;">
+															<td style="width:100%;padding-right:0px;padding-left:0px;">
 																<div align="center" style="line-height:10px"><a href="https://gvhomeofhope.com/partners/" target="_blank" style="outline:none" tabindex="-1"><img class="big" src="http://go.pardot.com/l/857603/2021-09-10/2btcb5/857603/16312917521nE9zu2r/GVHOH_2021_SponsorFooter_650x148.png" style="display: block; height: auto; border: 0; width: 600px; max-width: 100%;" width="600" alt="Platinum Sponsors" title="Platinum Sponsors"></a></div>
 															</td>
 														</tr>
@@ -649,7 +712,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-19" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0; background-color: #c7c8ca;">
+					<table class="row row-20" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0; background-color: #c7c8ca;">
 						<tbody>
 							<tr>
 								<td>
